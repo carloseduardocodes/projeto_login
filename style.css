@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/1000021514\ \(1\).jpg);
+    font-family: "poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(139, 136, 136, 0.623);
+    border-radius: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space:normal;
+    backdrop-filter: blur(10px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600px;
+}
+.box-usu {
+    position: relative;
+    margin-bottom: 20px;
+}
+.box-usu input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(41, 41, 41, 0.233);
+    font-size: 16px;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+}
+.box-usu input::placeholder{
+    color: rgba(255, 255, 255, 0.705);
+}
+.box-usu i{
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    top: 20%;
+
+}
+.box-esqui {
+    font-family:"poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.699);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box-esqui label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.box-esqui a{
+    text-decoration: none;
+    color: #00010da2;
+}
+.box-esqui a:hover{
+    text-decoration: underline;
+}
+
+button{
+
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
+    margin-bottom: 15px;
+}
+button:hover{
+    transition: all 0.5s;
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    background-color: rgba(12, 48, 168, 0.295);
+    
+}
